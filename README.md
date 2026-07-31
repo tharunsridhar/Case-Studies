@@ -1,5 +1,8 @@
 # Tharun Sridhar — Security Case Studies
 
+![Focus](https://img.shields.io/badge/Focus-Security%20Research-critical?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Case%20Studies-1E88E5?style=flat-square)
+
 I am a Computer Science student interested in software systems and information security.
 This repository contains personal case studies where I analyzed real-world vulnerabilities
 and breaches to understand how systems fail and how they can be designed more safely.
@@ -19,7 +22,7 @@ Focus areas:
 
 ## React2Shell — React Server Components Remote Code Execution
 
-![React2Shell Attack Flow](https://github.com/tharunsridhar/security-research-portfolio/blob/main/remote.png)
+![React2Shell Attack Flow](https://raw.githubusercontent.com/tharunsridhar/security-research-portfolio/main/remote.png)
 *Diagram: Crafted Flight payload reaches the server action endpoint, triggers insecure deserialization, prototype pollution, and finally server-side command execution.*
 
 ### What happened
@@ -56,7 +59,7 @@ Focus areas:
 
 ## Star Health Insurance Breach — Broken Authorization (IDOR)
 
-![IDOR Authorization Failure](https://github.com/tharunsridhar/security-research-portfolio/blob/main/unnamed.jpg)
+![IDOR Authorization Failure](https://raw.githubusercontent.com/tharunsridhar/security-research-portfolio/main/unnamed.jpg)
 *Diagram: Logged-in user requests sequential user IDs; backend checks authentication but not record ownership, exposing private data.*
 
 ### What happened
@@ -90,7 +93,7 @@ Focus areas:
 
 ## Zero Trust → Adaptive Trust in Cloud Security
 
-![Adaptive Trust Model](https://github.com/tharunsridhar/security-research-portfolio/blob/main/adp.jpg)
+![Adaptive Trust Model](https://raw.githubusercontent.com/tharunsridhar/security-research-portfolio/main/adp.jpg)
 *Diagram: After login the system monitors behavior; anomalies trigger MFA challenge and access is blocked.*
 
 ### What I studied
