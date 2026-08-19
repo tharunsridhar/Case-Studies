@@ -1,4 +1,4 @@
-# Tharun Sridhar — Security Case Studies
+# Tharun Sridhar: Security Case Studies
 
 ![Focus](https://img.shields.io/badge/Focus-Security%20Research-critical?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Case%20Studies-1E88E5?style=flat-square)
@@ -20,7 +20,7 @@ Focus areas:
 
 ---
 
-## React2Shell — React Server Components Remote Code Execution
+## React2Shell: React Server Components Remote Code Execution
 
 ![React2Shell Attack Flow](https://raw.githubusercontent.com/tharunsridhar/security-research-portfolio/main/remote.png)
 *Diagram: Crafted Flight payload reaches the server action endpoint, triggers insecure deserialization, prototype pollution, and finally server-side command execution.*
@@ -57,7 +57,7 @@ Focus areas:
 
 ---
 
-## Star Health Insurance Breach — Broken Authorization (IDOR)
+## Star Health Insurance Breach: Broken Authorization (IDOR)
 
 ![IDOR Authorization Failure](https://raw.githubusercontent.com/tharunsridhar/security-research-portfolio/main/unnamed.jpg)
 *Diagram: Logged-in user requests sequential user IDs; backend checks authentication but not record ownership, exposing private data.*
